@@ -1,0 +1,7 @@
+__pycache__/
+pregweekcalcvanv/
+.pytest_cache/
+.git/
+.gitignore
+README.md
+test_main.py
