@@ -23,14 +23,14 @@ Follow the steps below to clone the repository, create the necessary Docker netw
 
     ```bash
     cd backend
-    docker build -t pregweek-backend .
+    docker build . -t pregweek-backend
     ```
 
 4. Build Frontend Service
 
     ```bash
     cd ../frontendPython
-    docker build -t pregweek-frontend .
+    docker build . -t pregweek-frontend
     ```
 
 5. Run the Containers
