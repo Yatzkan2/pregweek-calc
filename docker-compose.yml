@@ -1,0 +1,25 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    ports:
+      - "8000:8000"
+    networks:
+      - pregweek-network
+
+  frontend:
+    build:
+      context: ./frontendPython
+    container_name: frontend
+    environment:
+      - URL_BASE=http://backend:8000
+    ports:
+      - "8501:8501"
+    networks:
+      - pregweek-network
+
+networks:
+  pregweek-network:
+    driver: bridge
