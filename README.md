@@ -2,6 +2,9 @@
 
 This is a Pregnancy Week Calculator to determine how many weeks pregnant you are on a specific date.
 
+
+Follow the steps below to clone the repository, create the necessary Docker network, build the backend and frontend services, and run the containers.
+
 ## Clone the Repository
 
 0. Clone the Repository
@@ -18,8 +21,6 @@ This is a Pregnancy Week Calculator to determine how many weeks pregnant you are
     ```
 
 ## Instructions to Run Each Service Separately
-
-Follow the steps below to clone the repository, create the necessary Docker network, build the backend and frontend services, and run the containers.
 
 1. Create Docker Network
 
