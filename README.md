@@ -19,6 +19,11 @@ Follow the steps below to clone the repository, create the necessary Docker netw
     ```bash
     docker-compose up
     ```
+2. Access the Application
+
+The application should now be available at [http://localhost:8501](http://localhost:8501)
+
+
 
 ## Instructions to Run Each Service Separately
 
