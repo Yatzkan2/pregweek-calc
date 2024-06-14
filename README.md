@@ -13,7 +13,7 @@ Follow the steps below to clone the repository, create the necessary Docker netw
     cd pregnancy-weeks-calc
     ```
 
-## Instructions to Run the App
+## Instructions to Run All Services at Once
 
 1. Run docker-compose
     ```bash
