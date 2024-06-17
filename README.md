@@ -10,7 +10,7 @@ Follow the steps below to clone the repository, create the necessary Docker netw
 0. Clone the Repository
     ```bash
     git clone <repository-url>
-    cd pregnancy-weeks-calc
+    cd pregweek-calc
     ```
 
 ## Instructions to Run All Services at Once
